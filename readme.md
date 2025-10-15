@@ -23,7 +23,9 @@ Now that you have the browser installed, let's download a game.
  
 Now that you now the game you want to test, you can open the Staff browser. </br>
 You should look for the "Untested - Coming Attractions" mirror, there you will find all games that need testing.
-<img width="698" height="1027" alt="image" src="https://github.com/user-attachments/assets/71916e00-1ba4-43c8-9826-0066efeab3b3" />
+</br>
+<img width="698" height="1027" alt="image" src="https://github.com/user-attachments/assets/4fe9db8b-9283-4ea7-a224-51c92c9a08c6" />
+</br>
 Open it, find the game you will test and simply right-click on it and download it, as you would normally do.
 
 ## Step 3 - First checks while the game download
@@ -33,7 +35,9 @@ So, what you need to do is:
 - Check if the game it opened is really the one you are testing
 - Check if the patch really exists and it's the last one
  - If it's not the last one, you can still test, but send a message on Telegram stating that's not the most recent version
-<img width="1861" height="1033" alt="image" src="https://github.com/user-attachments/assets/893d49c3-52fd-46ea-b940-bf63e1ccadfc" />
+</br>
+<img width="1861" height="1033" alt="image" src="https://github.com/user-attachments/assets/bc7c6460-c4c1-4781-ad0c-5020f77404e8" />
+</br>
 If any of these info doesn't match, your test can end here. The repacker must fix the mismatched appids, version or wathever.
 
 ## Step 4 - Installing the game
@@ -50,13 +54,16 @@ Not-so-obvious things:
 - Make sure the Music button works
 - Click on "?" on top right corner
   - Make sure game name and build id matches 
-  - <img width="615" height="592" alt="image" src="https://github.com/user-attachments/assets/e707c7be-81f6-443d-b849-8edd209cc757" />
+  - <img width="615" height="592" alt="image" src="https://github.com/user-attachments/assets/520613da-d57f-4577-a4e1-257ebb42b4db" />
   - Make sure AG Telegram button works and is redirecting to the correct place
 
 If there is a missmatch, post it on the replies on Telegram and you can finish your test here.
 
 You can now click on "Next" </br>
-Here, write down the required disk space, in my case "12.20 GB"<img width="610" height="463" alt="image" src="https://github.com/user-attachments/assets/0cc03629-dcc6-45be-933d-519b85feba78" />
+Here, write down the required disk space, in my case "12.20 GB"
+</br>
+<img width="610" height="463" alt="image" src="https://github.com/user-attachments/assets/84d46daa-9435-4c37-9eae-ce3bda84a406" />
+</br>
 
 - Click on "Install"
 - Make sure all the images on background have good quality
@@ -68,7 +75,7 @@ And it's this for now.
 Remember the size you noted down? Let's check if it matches.
 - Open the game install folder
 - Right click on it --> Properties
-- <img width="460" height="509" alt="image" src="https://github.com/user-attachments/assets/5c13f035-1df0-41ca-921b-1985cb0b7e2e" />
+- <img width="460" height="509" alt="image" src="https://github.com/user-attachments/assets/c3822d9d-5ef3-46a9-a0a1-335d03ac9d39" />
 - Make sure the size matches
 - While at it, check if the icons are present and in good quality
 - Check ALL shortcuts, desktop and initial menu ones
@@ -76,7 +83,7 @@ Remember the size you noted down? Let's check if it matches.
 Nice, now you can open the game folder and have a look, some important stuff you need to check
 - You need to find a steam_appid.txt SOMEWHERE, sometimes are in the root and sometimes you will need to dig, but the file MUST be present (exceptions exists)
 - Once you found it, make sure the appid is correct.
-- <img width="1308" height="555" alt="image" src="https://github.com/user-attachments/assets/878cec6f-7d3b-4f92-b9c7-3b304504b240" />
+- <img width="1308" height="555" alt="image" src="https://github.com/user-attachments/assets/005a6e8c-8d86-4531-858e-653ba5e77429" />
 - If you find anything strange or unusuall, post on Telegram.
 
 ## Step 6 - Testing the game itself
@@ -119,7 +126,3 @@ Gameplay VR - Not great. The UI is too far, so when I try to pickup the public p
 ```
 
 Great. Now just post it on Telegram and go to the next game \o/
-
-
-
-
