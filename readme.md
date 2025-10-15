@@ -87,16 +87,15 @@ Nice, now you can open the game folder and have a look, some important stuff you
 - If you find anything strange or unusuall, post on Telegram.
 
 ## Step 6 - Testing the game itself
-Nice, now you can finally open the game. You should NOT use Open Composite or any other stuff on the games. Just test it as it's installed, raw. </br>
-For that, just open the shortcut that best matches your setup, in my case is VD (If the game is VR)</br> 
-Now, you need just to play a little to see if there are any problem. </br>
-Make sure to test all controls (Keyboard + Mouse AND Controller, if possible) (Here the keymaps are also important to test) </br>
-Check if the settings can be changed and if they keep changed after a restart </br>
-You can also test if the overlay works (Alt + tab), some repackers ship with it, others don't. It's a good test anyway </br>
-After all that, open the game again, check if its saving the progress </br>
-If you find any problem, post on Telegram. Some problems are repack related, but some are game-related. Anyway we don't want to post a problematic game. </br>
-Ok, so now that you tested the game itself, do the same AGAIN with all shotcuts available that are possible for you to test. (Don't forget about the start menu ones too!)
-
+- Nice, now you can finally open the game. You should NOT use Open Composite or any other stuff on the games. Just test it as it's installed, raw. </br>
+- For that, just open the shortcut that best matches your setup, in my case is VD (If the game is VR)</br> 
+- Now, you need just to play a little to see if there are any problem. </br>
+- Make sure to test all controls (Keyboard + Mouse AND Controller, if possible) (Here the keymaps are also important to test) </br>
+- Check if the settings can be changed and if they keep changed after a restart </br>
+- You can also test if the overlay works (Alt + tab), some repackers ship with it, others don't. It's a good test anyway </br>
+- After all that, open the game again, check if its saving the progress </br>
+- If you find any problem, post on Telegram. Some problems are repack related, but some are game-related. Anyway we don't want to post a problematic game. </br>
+- Ok, so now that you tested the game itself, do the same AGAIN with all shotcuts available that are possible for you to test. (Don't forget about the start menu ones too!)
 
 ## Step 7 - Filling the report
 You think it ended? THIN AGAIN </br>
