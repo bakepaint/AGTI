@@ -26,7 +26,7 @@ Now that you have the browser installed, let's download a game.
 Now that you know the game you want to test, you can open the browser. </br>
 You should look for the "Untested - Coming Attractions" mirror; there you will find all games that need testing.
 </br>
-<img width="698" height="1027" alt="image" src="Imgs/1.png" />
+<img alt="image" src="Imgs/1.png" />
 </br>
 Open it, find the game you will test, and simply right-click on it and download it, as you would normally do.
 
@@ -37,8 +37,10 @@ What you need to do is:
 - Check if the game that opened is really the one you are testing.
 - Check if the patch really exists and if it's the latest one.
  - If it's not the latest one, you can still test, but send a message on Telegram stating that it's not the most recent version.
+ - If you can't find the patch you're looking for, first click this button and then search again as somtimes we do non-public builds as well.
+ - <img alt="image" src="Imgs/7.png" />
 </br>
-<img width="1861" height="1033" alt="image" src="Imgs/2.png" />
+<img alt="image" src="Imgs/2.png" />
 </br>
 If any of this info doesn't match, your test can end here. The repacker must fix the mismatched appids, version, or whatever.
 
@@ -56,7 +58,7 @@ Not-so-obvious things:
 - Make sure the Music button works.
 - Click on "?" in the top right corner.
   - Make sure the game name and build ID match.
-  - <img width="615" height="592" alt="image" src="Imgs/3.png" />
+  - <img alt="image" src="Imgs/3.png" />
   - Make sure the AG Telegram button works and redirects to the correct place.
 
 If there is a mismatch, post it in the replies on Telegram, and you can finish your test here.
@@ -64,7 +66,7 @@ If there is a mismatch, post it in the replies on Telegram, and you can finish y
 You can now click "Next". </br>
 Here, write down the required disk space; in my case, "12.20 GB".
 </br>
-<img width="610" height="463" alt="image" src="Imgs/4.png" />
+<img alt="image" src="Imgs/4.png" />
 </br>
 
 - Click "Install".
@@ -77,8 +79,8 @@ And that's it for now.
 Remember the size you noted down? Let's check if it matches.
 - Open the game's installation folder.
 - Right-click on it -> Properties.
-- <img width="460" height="509" alt="image" src="Imgs/5.png" />
-- Make sure the size matches.
+- <img alt="image" src="Imgs/5.png" />
+- Make sure the size matches (it dosen't have to be exact, just close).
 - While you're at it, check if the icons are present and are of good quality.
 - Check ALL shortcuts: desktop and start menu ones.
 
@@ -87,7 +89,7 @@ Nice. Now you can open the game folder and take a look. Here are some important 
 - The more important thing to check for the test as far as app ID goes is that the file next to the archives matches the app ID. EX: The `2314160` file with no extension. 
 - 99% of the time, the `steam_appid.txt` file will be correct if it is required for that repack, but you can still check if you want to.
 - Once you've found the no extension app ID file, check that the app ID is correct.
-- <img width="1308" height="555" alt="image" src="Imgs/6.png" />
+- <img alt="image" src="Imgs/6.png" />
 - If you find anything strange or unusual, post it on Telegram.
 
 ## Step 6 - Testing the game itself
@@ -113,7 +115,7 @@ Size / Name of folder / Build id - Remember the size you noted down? Was the fol
 Shortcuts - Do the desktop shortcuts have icons and do they works as intended? for VR say which shortcuts you used specifically.
 Gameplay VR - This one is self-explanatory. Does it work?
 Gameplay Flat - If there is a flat version of the game, include this line too.
-AppID TXT - This is the stupid no extension file outside the zip. Make sure there is one if its a steam game with a buildid, and that its for the game that was repacked.. the file should be there but also MATCH the games steam appid.. We saw this in step 5. If you found nothing strange and the no extension appid file is present, then OK.
+AppID TXT - This is the stupid no extension file outside the zip. Make sure there is one if its a steam game with a buildid, and that its for the game that was repacked.. the file should be there but also MATCH the games steam appid.. We saw this in step 5. If you found nothing strange and the no extension appid file is present/correct, then OK.
 
 Extra Info/Comments - Anything extra worth saying, and if ANY issues occur take screenshots! your main job if there is an issue is do your best to identify the issues cause and help the repacker FIX it by giving info that is relevant, for example if the shortcut doesnt work make sure to screenshot the target line of the shortcut! Anything else noteworthy. I usually put what I used to test here.
 ```
@@ -121,11 +123,11 @@ Extra Info/Comments - Anything extra worth saying, and if ANY issues occur take 
 For example:
 ```
 Internal DLL - OK
-Images / Logos / Slideshow - Low-quality slideshow images
-Info Button - OK
-Installer Music / Buttons / Links - OK
-Size / Name of folder / Build id - OK
-Shortcuts - The icon is missing on the desktop.
+Images / Logos / Slideshow - Low-quality slideshow images, rest are good
+Info Button - OK, info is correct
+Installer Music / Buttons / Links - OK, all good/working
+Size / Name of folder / Build id - OK, all correct
+Shortcuts - The icon is missing for the desktop shorcuts but they work.
 Gameplay VR - Not great. The UI is too far away, so when I try to pick up the public phone, for example, I can't read anything. When trying to fill the watering can, I can't open the tap. It's also hard to read the missions, but that was expected.
 
 Extra Info/Comments - The slideshow images should be replaced if possible, the shortcut icon needs fixed, gameplay issues are non-repack related so after those things are fixed this should be good to go. 
