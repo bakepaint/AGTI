@@ -24,7 +24,7 @@ Now that you have the browser installed, let's download a game.
 Now that you know the game you want to test, you can open the Staff browser. </br>
 You should look for the "Untested - Coming Attractions" mirror; there you will find all games that need testing.
 </br>
-<img width="698" height="1027" alt="image" src="https://github.com/user-attachments/assets/4fe9db8b-9283-4ea7-a224-51c92c9a08c6" />
+<img width="698" height="1027" alt="image" src="Imgs/1.png" />
 </br>
 Open it, find the game you will test, and simply right-click on it and download it, as you would normally do.
 
@@ -36,7 +36,7 @@ What you need to do is:
 - Check if the patch really exists and if it's the latest one.
  - If it's not the latest one, you can still test, but send a message on Telegram stating that it's not the most recent version.
 </br>
-<img width="1861" height="1033" alt="image" src="https://github.com/user-attachments/assets/bc7c6460-c4c1-4781-ad0c-5020f77404e8" />
+<img width="1861" height="1033" alt="image" src="Imgs/2.png" />
 </br>
 If any of this info doesn't match, your test can end here. The repacker must fix the mismatched appids, version, or whatever.
 
@@ -54,7 +54,7 @@ Not-so-obvious things:
 - Make sure the Music button works.
 - Click on "?" in the top right corner.
   - Make sure the game name and build ID match.
-  - <img width="615" height="592" alt="image" src="https://github.com/user-attachments/assets/520613da-d57f-4577-a4e1-257ebb42b4db" />
+  - <img width="615" height="592" alt="image" src="Imgs/3.png" />
   - Make sure the AG Telegram button works and redirects to the correct place.
 
 If there is a mismatch, post it in the replies on Telegram, and you can finish your test here.
@@ -62,7 +62,7 @@ If there is a mismatch, post it in the replies on Telegram, and you can finish y
 You can now click "Next". </br>
 Here, write down the required disk space; in my case, "12.20 GB".
 </br>
-<img width="610" height="463" alt="image" src="https://github.com/user-attachments/assets/84d46daa-9435-4c37-9eae-ce3bda84a406" />
+<img width="610" height="463" alt="image" src="Imgs/4.png" />
 </br>
 
 - Click "Install".
@@ -75,7 +75,7 @@ And that's it for now.
 Remember the size you noted down? Let's check if it matches.
 - Open the game's installation folder.
 - Right-click on it -> Properties.
-- <img width="460" height="509" alt="image" src="https://github.com/user-attachments/assets/c3822d9d-5ef3-46a9-a0a1-335d03ac9d39" />
+- <img width="460" height="509" alt="image" src="Imgs/5.png" />
 - Make sure the size matches.
 - While you're at it, check if the icons are present and are of good quality.
 - Check ALL shortcuts: desktop and start menu ones.
