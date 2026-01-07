@@ -8,6 +8,8 @@ We don't test the games as "ourselves"; we test them as if we were normal users.
 
 We will not use anything besides that, such as Open Composite or any other tool that can "mod" the way we play the games.
 
+Also, don't use Steam Link as we do not offer support for this to our users and it causes more problems than it's worth.
+
 I will not teach you how to install or set up anything here, as you should have already watched the tutorial.
 
 ## Step 1 - Downloading the browser
@@ -21,7 +23,7 @@ Now that you have the browser installed, let's download a game.
   - There is no problem with testing a game that has already been tested, but you will usually want to test a non-tested game.
   - **NEVER CLAIM A GAME UNTIL YOU HAVE STARTED TO DOWNLOAD IT**. I know that sometimes life calls and you end up not testing what you claimed, but this can cause other people to skip this game, and it ends up never being tested. Do not claim the game until you are 100% sure you WILL test it on the same day. (It's even better if you claim and test it at the same time).
  
-Now that you know the game you want to test, you can open the Staff browser. </br>
+Now that you know the game you want to test, you can open the browser. </br>
 You should look for the "Untested - Coming Attractions" mirror; there you will find all games that need testing.
 </br>
 <img width="698" height="1027" alt="image" src="Imgs/1.png" />
@@ -80,37 +82,40 @@ Remember the size you noted down? Let's check if it matches.
 - While you're at it, check if the icons are present and are of good quality.
 - Check ALL shortcuts: desktop and start menu ones.
 
-Nice. Now you can open the game folder and have a look. Here are some important things you need to check:
-- You need to find a `steam_appid.txt` file SOMEWHERE. Sometimes it is in the root folder, and sometimes you will need to dig, but the file MUST be present (exceptions exist).
-- Once you've found it, make sure the appid is correct.
-- <img width="1308" height="555" alt="image" src="https://github.com/user-attachments/assets/005a6e8c-8d86-4531-858e-653ba5e77429" />
+Nice. Now you can open the game folder and take a look. Here are some important things you need to check:
+- You can try to find a file called `steam_appid.txt`, sometimes it's in the root folder, sometimes you have to look for it, and sometimes it's not there. 
+- The more important thing to check for the test as far as app ID goes is that the file next to the archives matches the app ID. EX: The `2314160` file with no extension. 
+- 99% of the time, the `steam_appid.txt` file will be correct if it is required for that repack, but you can still check if you want to.
+- Once you've found the no extension app ID file, check that the app ID is correct.
+- <img width="1308" height="555" alt="image" src="Imgs/6.png" />
 - If you find anything strange or unusual, post it on Telegram.
 
 ## Step 6 - Testing the game itself
 - Nice, now you can finally open the game. You should NOT use Open Composite or any other tools on the games. Just test it as it is installed, raw.
-- To do that, just open the shortcut that best matches your setup—in my case, it's VD (if the game is VR). 
+- To do that, just open the shortcut that best matches your setup—in my case, it's VD (if the game is VR).
 - Now, you just need to play for a little while to see if there are any problems.
 - Make sure to test all controls (keyboard + mouse AND controller, if possible). (It is also important to test the keymaps here).
 - Check if the settings can be changed and if they remain changed after a restart.
-- You can also test if the overlay works (Alt + Tab). Some repackers ship with it, while others don't. It's a good test anyway.
+- You can also test if the overlay works (Shift + Tab). Some repackers ship with it, while others don't. It's a good test anyway.
 - After all that, open the game again and check if it's saving the progress.
 - If you find any problems, post them on Telegram. Some problems are repack-related, but some are game-related. In any case, we don't want to release a problematic game.
 - Okay, so now that you've tested the game itself, do the same thing AGAIN with all available shortcuts that are possible for you to test. (Don't forget about the start menu ones, too!)
 
 ## Step 7 - Filling out the report
 You think it's over? THINK AGAIN.
-We have a report to fill out now: 
+We have a report to fill out now:
 ```
-Internal DLL - We saw this in step 5. If you found nothing strange and the appid is present, then OK.
+Internal DLL - When you extract the archives if there is only a .exe file and a data.bin then this is OK, if there is an extra .dll file with those files then this is NOT internal so you'd put NO/NOT OK etc.
 Images / Logos / Slideshow - We saw this in steps 4 and 5. Are all images, logos, icons, and everything else OK?
 Info Button - We saw this one in step 4. Remember the "?" button? Was it OK?
 Installer Music / Buttons / Links - All other items from Step 4 related to the installer itself.
 Size / Name of folder / Build id - Remember the size you noted down? Was the folder created correctly? It all goes here.
-Shortcuts - This one seems self-explanatory.
-Gameplay VR - This one is also self-explanatory. Does it work?
+Shortcuts - Do the desktop shortcuts have icons and do they works as intended? for VR say which shortcuts you used specifically.
+Gameplay VR - This one is self-explanatory. Does it work?
 Gameplay Flat - If there is a flat version of the game, include this line too.
+AppID TXT - This is the stupid no extension file outside the zip. Make sure there is one if its a steam game with a buildid, and that its for the game that was repacked.. the file should be there but also MATCH the games steam appid.. We saw this in step 5. If you found nothing strange and the no extension appid file is present, then OK.
 
-Additional Info - Anything else noteworthy. I usually put what I used to test here.
+Extra Info/Comments - Anything extra worth saying, and if ANY issues occur take screenshots! your main job if there is an issue is do your best to identify the issues cause and help the repacker FIX it by giving info that is relevant, for example if the shortcut doesnt work make sure to screenshot the target line of the shortcut! Anything else noteworthy. I usually put what I used to test here.
 ```
 
 For example:
@@ -122,6 +127,8 @@ Installer Music / Buttons / Links - OK
 Size / Name of folder / Build id - OK
 Shortcuts - The icon is missing on the desktop.
 Gameplay VR - Not great. The UI is too far away, so when I try to pick up the public phone, for example, I can't read anything. When trying to fill the watering can, I can't open the tap. It's also hard to read the missions, but that was expected.
+
+Extra Info/Comments - The slideshow images should be replaced if possible, the shortcut icon needs fixed, gameplay issues are non-repack related so after those things are fixed this should be good to go. 
 ```
 
 Great. Now just post it on Telegram and move on to the next game. \o/
