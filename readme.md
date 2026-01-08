@@ -124,9 +124,9 @@ For example:
 ```
 Internal DLL - OK
 Images / Logos / Slideshow - Low-quality slideshow images, rest are good
-Info Button - OK, info is correct
-Installer Music / Buttons / Links - OK, all good/working
-Size / Name of folder / Build id - OK, all correct
+Info Button - OK
+Installer Music / Buttons / Links - OK
+Size / Name of folder / Build id - OK
 Shortcuts - The icon is missing for the desktop shorcuts but they work.
 Gameplay VR - Not great. The UI is too far away, so when I try to pick up the public phone, for example, I can't read anything. When trying to fill the watering can, I can't open the tap. It's also hard to read the missions, but that was expected.
 
