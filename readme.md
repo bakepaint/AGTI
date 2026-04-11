@@ -1,5 +1,7 @@
 # How to Test ARMGDDN Games
 
+NOTE: Testing has changed, we use [a site now](https://testing.3dflickfix.net) 
+
 ## Step 0 - Pre-requisites
 We don't test the games as "ourselves"; we test them as if we were normal users. Therefore, we need to follow the tutorial. For testing, we will always use:
 - 7-Zip
@@ -13,15 +15,15 @@ Also, don't use Steam Link as we do not offer support for this to our users and 
 I will not teach you how to install or set up anything here, as you should have already watched the tutorial.
 
 ## Step 1 - Downloading the browser
-I believe you already have it, right? RIGHT???
+I believe you already have it, right? RIGHT??? You can use the beta site too if you prefer, in fact you should get used to it. [Beta Site](https://Armgddnbrowser.com)
 
 ## Step 2 - Downloading the games
 Now that you have the browser installed, let's download a game.
 
-- First, you should check the `AG Testing` channel to see which games need testing.
-- Select a game from there. It's good practice to send a message saying that you have taken that game to test.
+- First, you should check the `AG Testing` channel to see which games need testing or just check the testing site.
+- Select a game from there. It's good practice to send a message saying that you have taken that game in Testing replies and then claim the game on the site.
   - There is no problem with testing a game that has already been tested, but you will usually want to test a non-tested game.
-  - **NEVER CLAIM A GAME UNTIL YOU HAVE STARTED TO DOWNLOAD IT**. I know that sometimes life calls and you end up not testing what you claimed, but this can cause other people to skip this game, and it ends up never being tested. Do not claim the game until you are 100% sure you WILL test it on the same day. (It's even better if you claim and test it at the same time).
+  - **NEVER CLAIM A GAME UNTIL YOU HAVE STARTED TO DOWNLOAD IT**. If your internet is very slow, sometimes you should wait until the download is almost done. I know that sometimes life calls and you end up not testing what you claimed, but this can cause other people to skip this game, and it ends up never being tested. Do not claim the game until you are 100% sure you WILL test it on the same day. (It's even better if you claim and test it at the same time).
  
 Now that you know the game you want to test, you can open the browser. </br>
 You should look for the "Untested - Coming Attractions" mirror; there you will find all games that need testing.
@@ -34,15 +36,15 @@ Open it, find the game you will test, and simply right-click on it and download 
 To save some time, we can already test some things. Open the folder where the game is being downloaded and you will see the game ID, for example, `2314160` for Tactical Assault VR.
 What you need to do is:
 - Open https://steamdb.info/app/2314160/patchnotes (Remember to change the ID to the real one you are testing).
-- Check if the game that opened is really the one you are testing.
-- Check if the patch really exists and if it's the latest one.
- - If it's not the latest one, you can still test, but send a message on Telegram stating that it's not the most recent version.
+- Check if the game that opened is really the one you are testing. The site does this automatically but doesnt hurt to manually check.
+- Check if the patch really exists and if it's the latest one. Again, the site does this automatically but doesnt hurt to manually check.
+ - If it's not the latest one, you can still test, but send a message on Telegram stating that it's not the most recent version just in case the repacker isnt aware the games updated again. 
  - If you can't find the patch you're looking for, first click this button and then search again as somtimes we do non-public builds as well.
  - <img alt="image" src="Imgs/7.png" />
 </br>
 <img alt="image" src="Imgs/2.png" />
 </br>
-If any of this info doesn't match, your test can end here. The repacker must fix the mismatched appids, version, or whatever.
+If any of this info doesn't match, its going to be a fail, but you should finish the test in case there are more issues. The repacker must fix the mismatched appids, version, or whatever but if they can fix everythign at once that would be better. Make sure to document anything wrong with screenshots were appropriate.
 
 ## Step 4 - Installing the game
 - Once the game is downloaded, extract it using 7-Zip. You should already know how to do that.
@@ -52,6 +54,7 @@ Now, there are some obvious things to take note of to see if they are correct:
 - The splash screen when opening the installer should match the game.
 - The background of the installer should match the game.
 - Names and everything else should match the game.
+- Art should be decent, stretched and skewed, low res, or other issues should be commented on. Dont be OVERLY judgemental everyone has different skill levels, but if it looks terrible say it kindly.
 
 Not-so-obvious things:
 - Make sure the AG Telegram button works and redirects to the correct place.
@@ -59,9 +62,8 @@ Not-so-obvious things:
 - Click on "?" in the top right corner.
   - Make sure the game name and build ID match.
   - <img alt="image" src="Imgs/3.png" />
-  - Make sure the AG Telegram button works and redirects to the correct place.
 
-If there is a mismatch, post it in the replies on Telegram, and you can finish your test here.
+If there is a mismatch, post it in the replies on Telegram.
 
 You can now click "Next". </br>
 Here, write down the required disk space; in my case, "12.20 GB".
@@ -115,7 +117,7 @@ Size / Name of folder / Build id - Remember the size you noted down? Was the fol
 Shortcuts - Do the desktop shortcuts have icons and do they works as intended? for VR say which shortcuts you used specifically.
 Gameplay VR - This one is self-explanatory. Does it work?
 Gameplay Flat - If there is a flat version of the game, include this line too.
-AppID TXT - This is the stupid no extension file outside the zip. Make sure there is one if its a steam game with a buildid, and that its for the game that was repacked.. the file should be there but also MATCH the games steam appid.. We saw this in step 5. If you found nothing strange and the no extension appid file is present/correct, then OK.
+AppID TXT - This is the stupid no extension file outside the zip. Make sure there is one if its a steam game with a buildid, and that its for the game that was repacked.. the file should be there but also MATCH the games steam appid.. We saw this in step 5. If you found nothing strange and the no extension appid file is present/correct, then OK. The appid file is ONLY present in steam games.
 
 Extra Info/Comments - Anything extra worth saying, and if ANY issues occur take screenshots! your main job if there is an issue is do your best to identify the issues cause and help the repacker FIX it by giving info that is relevant, for example if the shortcut doesnt work make sure to screenshot the target line of the shortcut! Anything else noteworthy. I usually put what I used to test here.
 ```
